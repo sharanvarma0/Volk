@@ -36,22 +36,16 @@ Additional comments on working can be found in the code. It has been split into 
 The Basic flow of the language is below.
 
     (The Program is written in a text editor)
-                    |
-                    |
+                    | 
       (The program is passed to the parser)
-                    |
                     |
    (The parser generates objects and syntax tree)
                     |
-                    |
    (The syntax tree and objects are passed to evaluator)
-                    |
                     |
    (The evaluator looks at the scope and user definations)
                     |
-                    |
    (The evaluator executes the functions, constructs and expressions)
-                    |
                     |
    (The evaluator returns the output to stdout)
 
