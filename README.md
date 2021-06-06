@@ -10,8 +10,9 @@ The Parser
 ==========
 It is a simple string parser written in javascript. The parser defines 3 types of objects for the volk 
 language.
-    - Value: All objects of type value are identical to integers or strings. The parser uses regular express-
-             -ions to see the kind of input from the program and creates a value object to be a string or 
+
+    - Value: All objects of type value are identical to integers or strings. The parser uses regular expressions 
+             to see the kind of input from the program and creates a value object to be a string or 
              number.
 
     - Word: All objects of type word are identifiers. These are bindings of a particular string to a value
