@@ -35,19 +35,19 @@ Additional comments on working can be found in the code. It has been split into 
 
 The Basic flow of the language is below.
 
-    (The Program is written in a text editor)
-                    | 
-      (The program is passed to the parser)
-                    |
-   (The parser generates objects and syntax tree)
-                    |
-   (The syntax tree and objects are passed to evaluator)
-                    |
-   (The evaluator looks at the scope and user definations)
-                    |
-   (The evaluator executes the functions, constructs and expressions)
-                    |
-   (The evaluator returns the output to stdout)
+    1. The Program is written in a text editor
+                     
+    2. The program is passed to the parser
+                    
+    3. The parser generates objects and syntax tree
+                    
+    4. The syntax tree and objects are passed to evaluator
+                    
+    5. The evaluator looks at the scope and user definations
+                    
+    6. The evaluator executes the functions, constructs and expressions
+                    
+    7. The evaluator returns the output to stdout
 
 The features of this language are very basic. This was created by me to experiment with capabilities of 
 javascript and learn something new along the way. This is by no means a fully fledged industry ready language
