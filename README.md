@@ -18,7 +18,7 @@ language.
     - Word: All objects of type word are identifiers. These are bindings of a particular string to a value
             or maybe a function. The values of words are also fundamentally expressions in this language.
 
-    - Applications: All application objects are essentially functions as expressions. The parser recursivelly
+    - Applications: All application objects are essentially functions as expressions. The parser recursively
                     parses application objects to get the fundamental objects from it and then perhaps execute
                     a function or special defination.
 

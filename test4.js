@@ -11,3 +11,4 @@ do(
 
 run.run(prog);
 
+/* This is defining a function to calculate power of an element. The function is defined first with define keyword. then the function is called with arguments 2,10. */

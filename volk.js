@@ -1,4 +1,4 @@
-/* This file defines the parser. As the parser is a first and seperate step, there is no tight coupling.
+/* This file defines the parser. As the parser is a first and seperate step, This has been defined in a seperate file to avoid tight coupling between evaluator and parser.
 This is defined here in a different file for readability purposes */
 
 // Import evaluator for next steps.

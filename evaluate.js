@@ -4,6 +4,8 @@ so they need to be in one file. Also, because constructs in special forms make u
 // Following is the defination and declarations of the special contructs. As visible, the constructs and their logic are stored in an object
 // Named SpecialForms. The method can be referenced as SpecialForms.<construct> for eg. SpecialForms.if with arguments.
 
+/* The Special forms object stores special control structures like if and for. It further stores all the operations related to operators like '+','-',etc. */
+
 SpecialForms = Object.create(null);
 
 SpecialForms.if = (args, scope) => {
